@@ -1,5 +1,9 @@
 require "snob/version"
 
 module Snob
-  # Your code goes here...
+
+  def self.foo
+    'foo'
+  end
+
 end
