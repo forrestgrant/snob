@@ -10,4 +10,14 @@ module Snob
     'new method'
   end
 
+  def self.bad_method
+    # this method should produce some smells
+    [1,2,3].map { |index|
+      # don't use index, do other things
+      'foo'.capitalize.split.join(' ')
+    }.inject do |object, index|
+      [object, index]
+    end
+  end
+
 end
