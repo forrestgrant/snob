@@ -6,4 +6,8 @@ module Snob
     'foo'
   end
 
+  def self.bar
+    'bar'
+  end
+
 end
