@@ -20,4 +20,8 @@ module Snob
     end
   end
 
+  def self.call
+    bad_method
+  end
+
 end
