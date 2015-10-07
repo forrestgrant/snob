@@ -6,4 +6,8 @@ module Snob
     'foo'
   end
 
+  def self.new_method
+    'new method'
+  end
+
 end
